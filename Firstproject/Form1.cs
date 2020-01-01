@@ -15,6 +15,12 @@ namespace Firstproject
         public Form1()
         {
             InitializeComponent();
+            ShowMessage("Hello");
+        }
+
+        private void ShowMessage(string str)
+        {
+            MessageBox.Show(str);
         }
     }
 }
